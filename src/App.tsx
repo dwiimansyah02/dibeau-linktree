@@ -6,27 +6,21 @@ export default function App() {
   const links = [
     {
       id: 1,
-      title: "Tanya Paket Presweet & Sweet 17th",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+Presweet+dan+Sweet+Seventeen%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
+      title: "Info Pricelist",
+      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+Photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
       description: "Bya akan segera menginformasikan pricelist Presweet dan Sweet Seventeen ke kamu."
     },
     {
       id: 2,
-      title: "Tanya Paket Prewedding & Wedding",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+Prewedding+dan+Wedding+Photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
-      description: "Bya akan segera menginformasikan pricelist Prewedding & Wedding ke kamu."
+      title: "Testimoni",
+      url: "",
+      description: "Apa kata klien."
     },
     {
       id: 3,
-      title: "Tanya Paket Graduation",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+Graduation+Photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
-      description: "Bya akan segera menginformasikan pricelist Graduation ke kamu."
-    },
-    {
-      id: 4,
-      title: "Hubungi Untuk Beauty",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+kita+ingin+Beauty+Photoshoot+apakah+bisa%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
-      description: "Koordinasi dengan Bya tentang beauty photoshoot."
+      title: "Official Website",
+      url: "",
+      description: "Web resmi milik DIBEAU Photography."
     },
   ];
 
@@ -63,7 +57,7 @@ export default function App() {
 
         {/* Footer */}
         <div className="text-center mt-12 text-sm text-gray-500">
-          <p>© 2017 - {new Date().getFullYear()} DIBEAU Photo. All rights reserved.</p>
+          <p>© 2017 - {new Date().getFullYear()} DIBEAU Photo by Vercel. All rights reserved.</p>
         </div>
       </div>
     </div>

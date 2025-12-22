@@ -8,19 +8,29 @@ export default function App() {
       id: 1,
       title: "Info Pricelist",
       url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
-      description: "Bya akan segera menginformasikan pricelist photoshoot ke kamu."
+      description: "Bya siap membantu kamu terkait photoshoot.",
+      status: true
     },
     {
       id: 2,
-      title: "Testimoni",
-      url: "",
-      description: "Apa kata klien."
+      title: "Studio #1: DIBEAU Paradise Studio",
+      url: "https://maps.app.goo.gl/f8jKr7WMt4jitXtZ7",
+      description: "Jl. Raya Tanjung Pesona, Rambak, Sungailiat, Bangka, 33215.",
+      status: true
     },
     {
       id: 3,
-      title: "Official Website",
-      url: "",
-      description: "Web resmi milik DIBEAU Photography."
+      title: "Studio #2: Emilyfleur 3rd Floor",
+      url: "https://maps.app.goo.gl/8bdruoBns9YSL1LF8",
+      description: "Jl. Depati Hamzah, Semabung Lama, Bukit Intan, Pangkal Pinang, Bangka, 33147.",
+      status: false
+    },
+    {
+      id: 4,
+      title: "Studio #3: Bibi_Enbi Official Studio Photography",
+      url: "https://maps.app.goo.gl/K7kSMn7EW7g8tyBs8",
+      description: "Jl. Srimenanti III, Sri Menanti, Sungailiat, Bangka, 33214.",
+      status: true
     },
   ];
 
@@ -48,6 +58,7 @@ export default function App() {
               title={link.title}
               description={link.description}
               url={link.url}
+              disabled={!link.status}
             />
           ))}
         </div>

@@ -7,8 +7,8 @@ export default function App() {
     {
       id: 1,
       title: "Info Pricelist",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+Photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
-      description: "Bya akan segera menginformasikan pricelist Presweet dan Sweet Seventeen ke kamu."
+      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+photoshoot%3F&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQJ6daMXUQp3_RqIxEb0jyyHxsS8aXc83NkIUeO7b9QBLO3WahWOk50q2AY4_aem_630P_OBe8JVyskZS_-27PA",
+      description: "Bya akan segera menginformasikan pricelist photoshoot ke kamu."
     },
     {
       id: 2,

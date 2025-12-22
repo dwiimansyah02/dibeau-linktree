@@ -31,7 +31,7 @@ export default function App() {
       title: "Studio #3: Bibi_Enbi Official Studio Photography",
       url: "https://maps.app.goo.gl/K7kSMn7EW7g8tyBs8",
       description: "Jl. Srimenanti III, Sri Menanti, Sungailiat, Bangka, 33214.",
-      status: true,
+      status: false,
     },
   ];
 

@@ -7,14 +7,14 @@ export default function App() {
     {
       id: 1,
       title: "Info Pricelist",
-      url: "https://api.whatsapp.com/send?phone=6281379952128&text=Halo+Wiwi%2C+boleh+minta+informasi+terkait+pricelist+photoshoot%3F",
+      url: "https://wa.link/806lds",
       description: "Booking studio disini.",
       status: true,
     },
     {
       id: 2,
       title: "Bridestory by Bya",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+photoshoot+untuk+wedding+dan+prewedding%3F",
+      url: "https://wa.link/1eazsm",
       description: "Bya siap membantu kamu terkait Wedding & Prewedding photoshoot.",
       status: true,
     },

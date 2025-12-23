@@ -1,12 +1,9 @@
-import { Instagram } from "lucide-react";
+import { Flame, Instagram, Youtube } from "lucide-react";
 
 interface SocialIconsProps {
   links: {
-    twitter?: string;
     instagram?: string;
-    linkedin?: string;
-    github?: string;
-    discord?: string;
+    tiktok?: string;
     youtube?: string;
   };
 }
@@ -23,6 +20,30 @@ export function SocialIcons({ links }: SocialIconsProps) {
         darkHoverBorder: "pink-400",
         groupHoverText: "pink-600",
         darkGroupHoverText: "pink-400"
+      },
+    },
+    {
+      name: "youtube",
+      icon: Youtube,
+      url: links.youtube,
+      color: {
+        border: "red-100",
+        hoverBorder: "red-200",
+        darkHoverBorder: "red-400",
+        groupHoverText: "red-600",
+        darkGroupHoverText: "red-400"
+      },
+    },
+    {
+      name: "tiktok",
+      icon: Flame,
+      url: links.tiktok,
+      color: {
+        border: "gray-100",
+        hoverBorder: "gray-200",
+        darkHoverBorder: "gray-400",
+        groupHoverText: "gray-600",
+        darkGroupHoverText: "gray-400"
       },
     },
   ];

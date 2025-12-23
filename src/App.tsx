@@ -59,6 +59,7 @@ export default function App() {
   ];
 
   const socialLinks = {
+    tiktok: "https://tiktok.com/@dibeauphoto",
     instagram: "https://instagram.com/dibeauphoto",
   };
 

@@ -95,7 +95,7 @@ export default function App() {
 
         {/* Maps */}
         <div className="space-y-4 mb-8">
-          <h2 className="text-center">Studio Pinpoint</h2>
+          <h2 className="text-center">Studio Locations</h2>
           {maps.map((map) => (
             <LinkCard
               key={map.id}

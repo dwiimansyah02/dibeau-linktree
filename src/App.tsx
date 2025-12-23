@@ -20,7 +20,7 @@ export default function App() {
     },
     {
       id: 3,
-      title: "Studio #1: DIBEAU Paradise Studio",
+      title: "Studio #1: Tanjung Pesona Photography Studio",
       url: "https://maps.app.goo.gl/f8jKr7WMt4jitXtZ7",
       description: "Jl. Raya Tanjung Pesona, Rambak, Sungailiat, Bangka, 33215.",
       status: false,
@@ -35,7 +35,7 @@ export default function App() {
     },
     {
       id: 5,
-      title: "Studio #3: Bibi_Enbi Official Studio Photography",
+      title: "Studio #3: Bibi_Enbi Studio Photography",
       url: "https://maps.app.goo.gl/K7kSMn7EW7g8tyBs8",
       description: "Jl. Srimenanti III, Sri Menanti, Sungailiat, Bangka, 33214.",
       status: false,

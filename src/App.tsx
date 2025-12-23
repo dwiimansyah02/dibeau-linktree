@@ -7,19 +7,26 @@ export default function App() {
     {
       id: 1,
       title: "Info Pricelist",
-      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+photoshoot%3F",
-      description: "Bya siap membantu kamu terkait photoshoot.",
+      url: "https://api.whatsapp.com/send?phone=6281379952128&text=Halo+Wiwi%2C+boleh+minta+informasi+terkait+pricelist+photoshoot%3F",
+      description: "Booking studio disini.",
       status: true,
     },
     {
       id: 2,
+      title: "Bridestory by Bya",
+      url: "https://api.whatsapp.com/send?phone=6282181225665&text=Halo+Bya%2C+boleh+minta+informasi+terkait+pricelist+photoshoot+untuk+wedding+dan+prewedding%3F",
+      description: "Bya siap membantu kamu terkait Wedding & Prewedding photoshoot.",
+      status: true,
+    },
+    {
+      id: 3,
       title: "Studio #1: DIBEAU Paradise Studio",
       url: "https://maps.app.goo.gl/f8jKr7WMt4jitXtZ7",
       description: "Jl. Raya Tanjung Pesona, Rambak, Sungailiat, Bangka, 33215.",
       status: true,
     },
     {
-      id: 3,
+      id: 4,
       title: "Studio #2: Emilyfleur 3rd Floor",
       url: "https://maps.app.goo.gl/8bdruoBns9YSL1LF8",
       description:
@@ -27,7 +34,7 @@ export default function App() {
       status: false,
     },
     {
-      id: 4,
+      id: 5,
       title: "Studio #3: Bibi_Enbi Official Studio Photography",
       url: "https://maps.app.goo.gl/K7kSMn7EW7g8tyBs8",
       description: "Jl. Srimenanti III, Sri Menanti, Sungailiat, Bangka, 33214.",

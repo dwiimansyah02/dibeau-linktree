@@ -13,7 +13,18 @@ interface SocialIconsProps {
 
 export function SocialIcons({ links }: SocialIconsProps) {
   const socialPlatforms = [
-    { name: "instagram", icon: Instagram, url: links.instagram },
+    {
+      name: "instagram",
+      icon: Instagram,
+      url: links.instagram,
+      color: {
+        border: "pink-100",
+        hoverBorder: "pink-200",
+        darkHoverBorder: "pink-400",
+        groupHoverText: "pink-600",
+        darkGroupHoverText: "pink-400"
+      },
+    },
   ];
 
   return (
@@ -26,22 +37,22 @@ export function SocialIcons({ links }: SocialIconsProps) {
               href={platform.url}
               rel="noopener noreferrer"
               aria-label={platform.name}
-              className="
+              className={`
                 w-12 h-12 rounded-full flex items-center justify-center
                 transition-all duration-200 border
-                bg-white border-pink-100 shadow-sm
-                hover:shadow-md hover:border-pink-200 hover:-translate-y-1
+                bg-white border-${platform.color.border} shadow-sm
+                hover:shadow-md hover:border-${platform.color.hoverBorder} hover:-translate-y-1
                 dark:bg-neutral-900 dark:border-neutral-800
-                dark:hover:border-pink-400
+                dark:hover:border-${platform.color.darkHoverBorder}
                 group
-              "
+              `}
             >
               <platform.icon
-                className="
+                className={`
                   w-5 h-5 transition-colors
-                  text-gray-600 group-hover:text-pink-600
-                  dark:text-gray-400 dark:group-hover:text-pink-400
-                "
+                  text-gray-600 group-hover:text-${platform.color.groupHoverText}
+                  dark:text-gray-400 dark:group-hover:text-${platform.color.darkGroupHoverText}
+                `}
               />
             </a>
           )

@@ -9,14 +9,14 @@ export default function App() {
       title: "Info Pricelist",
       url: "https://wa.link/806lds",
       description: "Booking studio disini.",
-      status: false,
+      status: true,
     },
     {
       id: 2,
       title: "Bridestory by Bya",
       url: "https://wa.link/1eazsm",
       description: "Bya siap membantu kamu terkait Wedding & Prewedding photoshoot.",
-      status: false,
+      status: true,
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ export default function App() {
       title: "Studio #3: Bibi_Enbi Studio Photography",
       url: "https://maps.app.goo.gl/K7kSMn7EW7g8tyBs8",
       description: "Jl. Srimenanti III, Sri Menanti, Sungailiat, Bangka, 33214.",
-      status: false,
+      status: true,
     },
     {
       id: 4,
